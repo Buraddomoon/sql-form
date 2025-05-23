@@ -81,7 +81,6 @@ namespace GerenciadorTarefas
             this.dgvTarefas.ReadOnly = true;
             this.dgvTarefas.SelectionChanged += new EventHandler(dgvTarefas_SelectionChanged);
 
-            // Adicionar controles ao formulário
             this.Controls.AddRange(new Control[] {
                 this.label1, this.txtNome,
                 this.label2, this.dtpData,
