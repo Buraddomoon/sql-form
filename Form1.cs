@@ -30,11 +30,9 @@ namespace GerenciadorTarefas
             this.label2 = new Label();
             this.label3 = new Label();
 
-            // Configuração do formulário
             this.Text = "Gerenciador de Tarefas";
             this.Size = new System.Drawing.Size(800, 600);
 
-            // Configuração dos controles
             this.label1.Text = "Nome:";
             this.label1.Location = new System.Drawing.Point(20, 20);
             this.label1.AutoSize = true;
